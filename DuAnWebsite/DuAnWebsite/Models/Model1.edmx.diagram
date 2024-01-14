@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5c5dc033e72f4ced8ea68bb86b178615" Name="Diagram1">
+        <EntityTypeShape EntityType="QL_SHOPDONGHOOModel.ACCOUNT" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_SHOPDONGHOOModel.CHITIETNHAP" Width="1.5" PointX="3" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_SHOPDONGHOOModel.CHITIETHD" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_SHOPDONGHOOModel.DONGHO" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_SHOPDONGHOOModel.HOADON" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_SHOPDONGHOOModel.KHACHHANG" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_SHOPDONGHOOModel.LOAIDONGHO" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_SHOPDONGHOOModel.NHACUNGCAP" Width="1.5" PointX="0.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_SHOPDONGHOOModel.NHANVIEN" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_SHOPDONGHOOModel.NHAP" Width="1.5" PointX="0.75" PointY="14.625" IsExpanded="true" />
+        <AssociationConnector Association="QL_SHOPDONGHOOModel.FK__CHITIETNH__MANHA__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_SHOPDONGHOOModel.FK__CHITIETNHAP__MAN__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_SHOPDONGHOOModel.FK_CHITIETHD_DONGHO" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_SHOPDONGHOOModel.FK_CHITIETHD_HOADON" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_SHOPDONGHOOModel.FK_DONGHO_LOAIDONGHO" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_SHOPDONGHOOModel.FK_DONGHO_NHACUNGCAP" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_SHOPDONGHOOModel.FK_HOADON_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_SHOPDONGHOOModel.FK_HOADON_NHANVIEN" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

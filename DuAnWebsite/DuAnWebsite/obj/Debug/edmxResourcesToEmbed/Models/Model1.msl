@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QL_SHOPDONGHOOModelStoreContainer" CdmEntityContainer="QL_SHOPDONGHOOEntities">
+    <EntitySetMapping Name="ACCOUNTs">
+      <EntityTypeMapping TypeName="QL_SHOPDONGHOOModel.ACCOUNT">
+        <MappingFragment StoreEntitySet="ACCOUNT">
+          <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+          <ScalarProperty Name="FIRSTNAME" ColumnName="FIRSTNAME" />
+          <ScalarProperty Name="LASTNAME" ColumnName="LASTNAME" />
+          <ScalarProperty Name="passwordd" ColumnName="passwordd" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="NGAYSINH" ColumnName="NGAYSINH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIETNHAPs">
+      <EntityTypeMapping TypeName="QL_SHOPDONGHOOModel.CHITIETNHAP">
+        <MappingFragment StoreEntitySet="CHITIETNHAP">
+          <ScalarProperty Name="MAN" ColumnName="MAN" />
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+          <ScalarProperty Name="DONGIANHAP" ColumnName="DONGIANHAP" />
+          <ScalarProperty Name="TONGTIENNHAP" ColumnName="TONGTIENNHAP" />
+          <ScalarProperty Name="MANHACUNGCAP" ColumnName="MANHACUNGCAP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIETHDs">
+      <EntityTypeMapping TypeName="QL_SHOPDONGHOOModel.CHITIETHD">
+        <MappingFragment StoreEntitySet="CHITIETHD">
+          <ScalarProperty Name="MAHD" ColumnName="MAHD" />
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="MAU" ColumnName="MAU" />
+          <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+          <ScalarProperty Name="THANHTIEN" ColumnName="THANHTIEN" />
+          <ScalarProperty Name="DONGIA" ColumnName="DONGIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DONGHOes">
+      <EntityTypeMapping TypeName="QL_SHOPDONGHOOModel.DONGHO">
+        <MappingFragment StoreEntitySet="DONGHO">
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="TENDH" ColumnName="TENDH" />
+          <ScalarProperty Name="MAU" ColumnName="MAU" />
+          <ScalarProperty Name="DONGIA" ColumnName="DONGIA" />
+          <ScalarProperty Name="MALOAIDH" ColumnName="MALOAIDH" />
+          <ScalarProperty Name="MANHACUNGCAP" ColumnName="MANHACUNGCAP" />
+          <ScalarProperty Name="TONKHO" ColumnName="TONKHO" />
+          <ScalarProperty Name="HINHANH" ColumnName="HINHANH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOADONs">
+      <EntityTypeMapping TypeName="QL_SHOPDONGHOOModel.HOADON">
+        <MappingFragment StoreEntitySet="HOADON">
+          <ScalarProperty Name="MAHD" ColumnName="MAHD" />
+          <ScalarProperty Name="NGAYRAHD" ColumnName="NGAYRAHD" />
+          <ScalarProperty Name="THANHTOAN" ColumnName="THANHTOAN" />
+          <ScalarProperty Name="MAKH" ColumnName="MAKH" />
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACHHANGs">
+      <EntityTypeMapping TypeName="QL_SHOPDONGHOOModel.KHACHHANG">
+        <MappingFragment StoreEntitySet="KHACHHANG">
+          <ScalarProperty Name="MAKH" ColumnName="MAKH" />
+          <ScalarProperty Name="TENKH" ColumnName="TENKH" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAIDONGHOes">
+      <EntityTypeMapping TypeName="QL_SHOPDONGHOOModel.LOAIDONGHO">
+        <MappingFragment StoreEntitySet="LOAIDONGHO">
+          <ScalarProperty Name="MALOAIDH" ColumnName="MALOAIDH" />
+          <ScalarProperty Name="TENLOAIDH" ColumnName="TENLOAIDH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHACUNGCAPs">
+      <EntityTypeMapping TypeName="QL_SHOPDONGHOOModel.NHACUNGCAP">
+        <MappingFragment StoreEntitySet="NHACUNGCAP">
+          <ScalarProperty Name="MANHACUNGCAP" ColumnName="MANHACUNGCAP" />
+          <ScalarProperty Name="TENNHACUNGCAP" ColumnName="TENNHACUNGCAP" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="QL_SHOPDONGHOOModel.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+          <ScalarProperty Name="TENNV" ColumnName="TENNV" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="NamSINH" ColumnName="NamSINH" />
+          <ScalarProperty Name="NGAYVL" ColumnName="NGAYVL" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="LUONG" ColumnName="LUONG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHAPs">
+      <EntityTypeMapping TypeName="QL_SHOPDONGHOOModel.NHAP">
+        <MappingFragment StoreEntitySet="NHAP">
+          <ScalarProperty Name="MAN" ColumnName="MAN" />
+          <ScalarProperty Name="NGAYNHAP" ColumnName="NGAYNHAP" />
+          <ScalarProperty Name="TONGTIEN" ColumnName="TONGTIEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
